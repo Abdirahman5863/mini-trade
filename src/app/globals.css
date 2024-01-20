@@ -1,33 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: rgba(59, 63, 81, 1), rgba(43, 46, 57, 1);
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.Hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+  padding-right: 48px;
+  position: relative;
+  gap: 5px;
+}
+.button-nav {
+  width: 90px;
+  border-radius: 10px;
+  background-color: rgba(121, 51, 255, 1);
+  height: 40px;
+  color: white;
+  font-size: larger;
+  font-weight: 500;
+}
+.bg-img {
+  object-fit: cover;
+  z-index: -5;
+  width: 1920px;
+  height: 1080px;
+  top: -13594px;
+  left: -9742px;
+}
+.hero-content {
+  width: 100%;
+}
+h1 {
+  color: aliceblue;
+  font-size: 52px;
+  font-weight: 800;
+  padding-right: 100px;
+  line-height: 88px;
+}
+.text-title {
+  color: aliceblue;
+  font-size: 26px;
+  font-weight: 400;
+  padding-top: 30px;
+}
+.button-go {
+  display: flex;
+  background-color: rgba(121, 51, 255, 1);
+  width: 338px;
+  justify-content: center;
+  padding: 24px 50px;
+  border-radius: 20px;
 }
