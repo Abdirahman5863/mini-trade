@@ -15,7 +15,7 @@ main {
   padding-top: 30px;
 }
 .Hero {
-  height: 100%;
+  height: 1080px;
   display: flex;
   flex-direction: column;
   padding-left: 150px;
@@ -24,7 +24,6 @@ main {
   gap: 5px;
   background-image: url(/phone.png);
   background-size: cover;
-  min-height: 100vh;
   background-position: center;
   padding-top: 198px;
 }
@@ -74,11 +73,12 @@ h1 {
 }
 .container {
   display: flex;
-  height: 100vh;
+  height: 996px;
   background-image: url(/bgg.png);
   background-size: cover;
   background-position: center;
   padding-bottom: 100px;
+  padding-left: 200px;
 }
 .button-g {
   background-color: rgba(121, 51, 255, 1);
@@ -89,7 +89,7 @@ h1 {
   color: aliceblue;
 }
 .bigPro {
-  height: 100vh;
+  height: 2700px;
   background-image: url(/bgpro.png);
   background-size: cover;
   background-position: center;
