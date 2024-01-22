@@ -4,6 +4,9 @@ import Second from "./components/Sections/section2/Second";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 
+import Third from "./components/Sections/section3/Third";
+import Fourth from "./components/Sections/section4/Fourth";
+
 export default function Home() {
   return (
     <main>
@@ -14,7 +17,14 @@ export default function Home() {
       <section>
         <Second />
       </section>
-      <Footer />
+      <section>
+        <Third />
+      </section>
+      <section>
+        <Fourth />
+
+        <Footer />
+      </section>
     </main>
   );
 }
