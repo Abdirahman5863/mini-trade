@@ -6,24 +6,23 @@ import Footer from "./components/Footer/Footer";
 
 import Third from "./components/Sections/section3/Third";
 import Fourth from "./components/Sections/section4/Fourth";
+import Learnmore from "./components/text/Learnmore";
 
 export default function Home() {
   return (
     <main>
-      <Navbar />
       <section>
         <First />
       </section>
       <section>
         <Second />
+        <Learnmore />
       </section>
       <section>
         <Third />
       </section>
       <section>
         <Fourth />
-
-        <Footer />
       </section>
     </main>
   );

@@ -6,26 +6,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --bg-img-center: no-repeat center/cover;
+}
 main {
   background-image: url(/victor.png);
-  backface-visibility: hidden;
 }
-
-.Hero-overlay {
-  padding-top: 30px;
-}
-.Hero {
-  height: 1080px;
-  display: flex;
-  flex-direction: column;
-  padding-left: 150px;
-  padding-right: 48px;
-  position: relative;
-  gap: 5px;
+.hero {
   background-image: url(/phone.png);
-  background-size: cover;
   background-position: center;
-  padding-top: 198px;
+  background-size: cover;
+  gap: 100px;
+  height: 50rem;
+}
+.navbar {
+  display: flex;
+  align-items: center;
 }
 .button-nav {
   width: 90px;
@@ -67,32 +63,39 @@ h1 {
   justify-content: center;
   padding: 24px 50px;
   border-radius: 20px;
+  align-items: center;
+  gap: 40px;
 }
-.Aside {
-  flex: 1;
-}
+
 .container {
-  display: flex;
-  height: 996px;
   background-image: url(/bgg.png);
   background-size: cover;
   background-position: center;
-  padding-bottom: 100px;
-  padding-left: 200px;
+  height: 100vh;
+  background-repeat: no-repeat;
 }
 .button-g {
   background-color: rgba(121, 51, 255, 1);
-  width: 200px;
+  width: 15rem;
   justify-content: center;
   padding: 24px 50px;
   border-radius: 20px;
   color: aliceblue;
 }
 .bigPro {
-  height: 2700px;
   background-image: url(/bgpro.png);
   background-size: cover;
   background-position: center;
-  padding-bottom: 300px;
+  height: 1700px;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+.section4 {
+  background-image: url(/smallpro.png);
   background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
 }
